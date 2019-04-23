@@ -15,7 +15,11 @@
         square = arr.reduce((a,b) => Math.sqrt(a,2) + Math.sqrt(b,2));
         alert(Math.sqrt(sum));
     
+<<<<<<< HEAD
     a = "   Сочинение — вид письменной школьной работы, представляющий рассуждение   ";
+=======
+    a = "Сочинение — вид письменной школьной работы, представляющий рассуждение";
+>>>>>>> b8c9c9a4fe61b054570d133581ecbc04dc5d4c7c
     a = a.trim();
     console.log(a);
     function newFunc(a) {
