@@ -16,12 +16,13 @@
         alert(Math.sqrt(sum));
     
     a = "Сочинение — вид письменной школьной работы, представляющий рассуждение";
+    a = a.trim();
     console.log(a);
     function newFunc(a) {
         if (typeof a !== "string") {
           console.log(" Не строка");
         } else {
-          srt = a.trim();
+          a = a.trim();
           let sliced = a.slice(0, 50);
           if (sliced.length < a.length) {
             return (sliced += "...");
